@@ -35,3 +35,38 @@ def insert(BST, val):
                 BST.right = node(val)
             else:
                 insert(BST.right, val)
+
+#gets the highest int in the bst
+def get_max(BST):
+    if BST.right == None:
+        return BST.val
+    else:
+        return get_max(BST.right)
+
+#gets the lowest int in the bst
+def get_min(BST):
+    if BST.left == None:
+        return BST.val
+    else:
+        return get_min(BST.left)
+
+
+#makes a btree
+def make_BST(lst):
+    assert len(lst) > 1
+    btree = node(lst.pop())
+    for elem in lst:
+        insert(btree, elem)
+    return btree
+
+
+
+def N_mostcommon_words(fname, N):
+    with open(fname, 'r').read() as wordstring:
+        wordstring = wordstring.split(" ")
+        word_dict = {}
+        for elem in wordstring:
+            if elem in word_dict.keys():
+                word_dict[elem] += 1
+            else:
+                word_dict[elem] = 1
