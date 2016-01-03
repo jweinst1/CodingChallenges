@@ -20,12 +20,12 @@ class node:
 
 def insert(BST, val):
     if BST.isleaf():
-        if val <= BST.val:
+        if val <= BST.value:
             BST.left = node(val)
         else:
             BST.right = node(val)
     else:
-        if val <= BST.val:
+        if val <= BST.value:
             if BST.left == None:
                 BST.left = node(val)
             else:
@@ -58,6 +58,36 @@ def make_BST(lst):
     for elem in lst:
         insert(btree, elem)
     return btree
+
+class keynode:
+
+    def __init__(self, key, value, left=None, right=None):
+        self.key = key
+        self.value = value
+        self.left = left
+        self.right = right
+    def getleft(self):
+        return self.left.value
+    def getright(self):
+        return self.right.value
+    def getvalue(self):
+        return self.value
+    def setvalue(self, elem):
+        self.value = elem
+    def isleaf(self):
+        return self.left is None and self.right is None
+
+#searches the tree based on the value
+def search_KVtree(BST, value):
+    if BST.isleaf() and BST.value is not value:
+        return False
+    elif BST.value == value:
+       return BST.key
+    elif value < BST.value:
+       return search_KVtree(BST.left, value)
+    else:
+       return search_KVtree(BST.right, value)
+
 
 
 
