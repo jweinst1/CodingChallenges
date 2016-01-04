@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec971a9b-2527-4f3a-b020-6fef873e7a53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Structures/FixedSizeArray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Structures/TwoStackQeue.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Structures/LLmap.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data_Structures/Twoendlinekdlist.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intlistproblems.py" afterPath="$PROJECT_DIR$/intlistproblems.py" />
     </list>
     <ignored path="CodingChallenges.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,11 +46,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FixedSizeArray.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FixedSizeArray.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Structures/FixedSizeArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3333334">
+            <state vertical-scroll-proportion="0.0">
               <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LLmap.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data_Structures/LLmap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Twoendlinekdlist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Structures/Twoendlinekdlist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45833334">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -86,6 +105,8 @@
         <option value="$PROJECT_DIR$/Data_Structures/TwoStackQeue.py" />
         <option value="$PROJECT_DIR$/intlistproblems.py" />
         <option value="$PROJECT_DIR$/Data_Structures/FixedSizeArray.py" />
+        <option value="$PROJECT_DIR$/Data_Structures/LLmap.py" />
+        <option value="$PROJECT_DIR$/Data_Structures/Twoendlinekdlist.py" />
       </list>
     </option>
   </component>
@@ -125,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,6 +181,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,6 +449,38 @@
     <entry file="file://$PROJECT_DIR$/intlistproblems.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Structures/FixedSizeArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Structures/TwoStackQeue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nwordsinafile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intlistproblems.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -475,8 +528,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data_Structures/FixedSizeArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3333334">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Structures/LLmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Structures/Twoendlinekdlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45833334">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding />
         </state>
       </provider>
