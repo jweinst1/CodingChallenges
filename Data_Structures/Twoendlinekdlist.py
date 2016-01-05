@@ -10,7 +10,7 @@ class link:
     def hasnext(self):
         return self.next is not None
     def insert(self, val):
-        self.next = link(val)
+        self.next = link(val, self.next)
 
 
 class two_tail_linkedlist:
@@ -25,3 +25,20 @@ class two_tail_linkedlist:
         self.front = link(val, self.front)
     def addback(self, val):
         self.back.insert(val)
+
+
+#challenge: a linked list that has each node embedded in a dictionary
+
+class linkedmap:
+
+    def __init__(self, front, name):
+        self.front = link(front)
+        self.map = {}
+        self.map[name] = self.front
+        self.frontnum = 0
+    def extendfront(self, val, name):
+        self.front = link(val, self.front)
+        self.map[name] = self.front
+    def getmap(self):
+        return self.map
+
